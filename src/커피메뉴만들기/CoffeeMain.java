@@ -123,7 +123,7 @@ public class CoffeeMain {
                         String grp = sc.next();
                         System.out.print("설명 입력 : ");
                         String desc = sc.next();
-                        map.put(key, new MenuInfo(key, price, grp, desc));
+                        map.replace(key, new MenuInfo(key, price, grp, desc));
                     } else {
                         System.out.println("수정 할 메뉴가 없습니다.");
                     }
